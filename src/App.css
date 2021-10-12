@@ -20,7 +20,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.infoBoard{
+.dashBoard{
     margin: 30px 130px;
     display: flex;
     flex-direction: row;
@@ -46,4 +46,29 @@ body{
     font-size: 26px;
     font-weight: 600;
     margin-top: 15px;
+}
+
+.lottery{
+    background-color: #3E2C5B;
+    margin: 30px 80px;
+    padding: 1px 20px;
+}
+
+h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.drawsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.draw{
+    width: 300px;
+    background-color: 341948;
+    color: white;
 }

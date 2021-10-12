@@ -7,7 +7,7 @@ function App() {
         <a class="title">IBC Lottery</a>
       </div>
       
-      <div class="infoBoard">
+      <div class="dashBoard">
         
         <div class="box1 tickets">
           <p class="box1title">Tickets in game</p>
@@ -29,6 +29,21 @@ function App() {
           <p class="box1value">22.45</p>
         </div>
 
+      </div>
+
+      <div class="lottery">
+        <h1>Upcoming Draws</h1>
+
+        <div class="drawsContainer">
+          
+          <div class="draw">
+            <p class="id">1024445 </p>
+
+          </div>
+        
+        </div>
+        
+        <h1>Past Draws</h1>
       </div>
     </div>
   );
