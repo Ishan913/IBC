@@ -36,14 +36,155 @@ function App() {
 
         <div class="drawsContainer">
           
-          <div class="draw">
-            <p class="id">1024445 </p>
-
+          <div class="drawBox">
+            <p class="drawId">1024445 </p>
+            <a class="drawl date"><i class="fas fa-clock"></i> 9-10-21 09:00</a>
+            <a class="drawr people"> 2 <i class="fas fa-user-friends"></i></a>
+            <p>
+            <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
+            <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
+            </p>
+            <button class="stakeButton">Add Stake</button>
           </div>
+
+          <div class="drawBox">
+            <p class="drawId">1024445 </p>
+            <a class="drawl date"><i class="fas fa-clock"></i> 9-10-21 09:00</a>
+            <a class="drawr people"> 2 <i class="fas fa-user-friends"></i></a>
+            <p>
+            <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
+            <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
+            </p>
+            <button class="stakeButton">Add Stake</button>
+          </div>
+
+          <div class="drawBox">
+            <p class="drawId">1024445 </p>
+            <a class="drawl date"><i class="fas fa-clock"></i> 9-10-21 09:00</a>
+            <a class="drawr people"> 2 <i class="fas fa-user-friends"></i></a>
+            <p>
+            <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
+            <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
+            </p>
+            <button class="stakeButton">Add Stake</button>
+          </div>
+
+        
         
         </div>
         
         <h1>Past Draws</h1>
+
+        <div class="tableDiv">
+          <table>
+            <thead>
+              <tr class="tableHeader">
+                <th>ID</th>
+                <th>Date</th>
+                <th>Members</th>
+                <th>Min Stake</th>
+                <th>Your Stake</th>
+                <th>Result</th>
+                <th>Prize</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr>
+
+              <tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr>
+              <tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr><tr class="tableEntry">
+                <td>1024668</td>
+                <td>9-10-21</td>
+                <td>15</td>
+                <td>0.100 eth</td>
+                <td>0.200 eth</td>
+                <td>WON</td>
+                <td>1.200 eth</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
       </div>
     </div>
   );
