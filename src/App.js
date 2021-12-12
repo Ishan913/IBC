@@ -49,7 +49,10 @@ function App() {
         <div class="drawsContainer">
           <ActiveDraw></ActiveDraw>
           <ReadyDraw></ReadyDraw>
-          <ActiveDraw></ActiveDraw>        
+          <ActiveDraw></ActiveDraw>  
+          <ActiveDraw></ActiveDraw>
+          <ReadyDraw></ReadyDraw>
+          <ActiveDraw></ActiveDraw>      
         
         </div>
         
