@@ -1,6 +1,11 @@
 import React from 'react'
+import AddStakePopup from './AddStakePopup';
+import {useState} from 'react';
 
 function ActiveDraw() {
+
+    const [stakePopup,SetStakePopup]=useState(false);
+
     return (
         <div class="drawBox">
             <p class="drawId">1024445 </p>
@@ -10,7 +15,9 @@ function ActiveDraw() {
             <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
             <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
             </p>
-            <button class="stakeButton">Add Stake</button>
+            <button onClick={() => SetStakePopup(true)} class="stakeButton">Add Stake</button>
+
+            <AddStakePopup trigger ={stakePopup} setTrigger={SetStakePopup}></AddStakePopup>
             
           </div>
     )

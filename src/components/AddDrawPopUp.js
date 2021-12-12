@@ -17,7 +17,7 @@ function AddDrawPopUp(props) {
                     <input type="text" id="name"></input>
                 </form>
                 </div>
-                <button className="createDrawBtn">Create</button>
+                <button className="createDrawBtn" onClick={() => props.setTrigger(false)} >Create</button>
                 {props.children}
             </div>
         </div>

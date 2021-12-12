@@ -1,7 +1,11 @@
 import React from 'react'
 import {useState} from 'react';
+import DrawResult from './DrawResult';
 
 function ReadyDraw() {
+
+    const [drawResultPopup,SetDrawResultPopup]=useState(false)
+
     return (
         <div class="drawBox">
             <p class="drawId">1024445 </p>
@@ -11,7 +15,9 @@ function ReadyDraw() {
             <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
             <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
             </p>
-            <button class="stakeButton">Draw</button>
+            <button onClick={() => SetDrawResultPopup(true)} class="stakeButton">Draw</button>
+
+            <DrawResult trigger={drawResultPopup} setTrigger={SetDrawResultPopup}></DrawResult>
             
           </div>
     )

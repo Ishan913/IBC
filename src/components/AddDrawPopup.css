@@ -59,3 +59,30 @@ input{
     background-color: #170B3B;
     font-weight: 100;
 }
+
+.increaseStakeBtn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    width: 175px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 30px auto 5px auto;
+    display: block;
+    border: none;
+    color: white;
+    background-color: #170B3B;
+    font-weight: 100;
+}
+
+.inputFields{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputFields2{
+    display: flex;
+}
+
+#inc{
+    margin-left: 10px;
+}

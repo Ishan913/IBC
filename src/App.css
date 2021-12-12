@@ -128,11 +128,6 @@ h1{
     font-weight: 600;
 }
 
-.inputFields{
-    display: flex;
-    justify-content: space-around;
-}
-
 .tableDiv{
     overflow-y: auto;
     height: 175px;
