@@ -1,10 +1,22 @@
 import './App.css';
+import AddDrawPopUp from './components/AddDrawPopUp';
+import ReadyDraw from './components/ReadyDraw';
+import ActiveDraw from './components/ActiveDraw';
+import {useState} from 'react';
 
 function App() {
+
+  const [drawPopup,SetDrawPopup]=useState(false);
+
   return (
     <div className="App">
       <div class="navbar"> 
+      <main>
         <a class="title">IBC Lottery</a>
+        <button class="addDraw" onClick={() => SetDrawPopup(true)}><i class="fas fa-plus"></i> Add New Draw</button>
+      </main>
+        <AddDrawPopUp trigger={drawPopup} setTrigger={SetDrawPopup}>
+        </AddDrawPopUp>
       </div>
       
       <div class="dashBoard">
@@ -19,7 +31,7 @@ function App() {
           <p class="box1value">2.4 eth</p>
         </div>
 
-        <div class="box1 balance">
+        <div class="box1 winnings">
           <p class="box1title">Winnings</p>
           <p class="box1value">1.1 eth</p>
         </div>
@@ -35,41 +47,9 @@ function App() {
         <h1>Upcoming Draws</h1>
 
         <div class="drawsContainer">
-          
-          <div class="drawBox">
-            <p class="drawId">1024445 </p>
-            <a class="drawl date"><i class="fas fa-clock"></i> 9-10-21 09:00</a>
-            <a class="drawr people"> 2 <i class="fas fa-user-friends"></i></a>
-            <p>
-            <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
-            <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
-            </p>
-            <button class="stakeButton">Add Stake</button>
-          </div>
-
-          <div class="drawBox">
-            <p class="drawId">1024445 </p>
-            <a class="drawl date"><i class="fas fa-clock"></i> 9-10-21 09:00</a>
-            <a class="drawr people"> 2 <i class="fas fa-user-friends"></i></a>
-            <p>
-            <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
-            <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
-            </p>
-            <button class="stakeButton">Add Stake</button>
-          </div>
-
-          <div class="drawBox">
-            <p class="drawId">1024445 </p>
-            <a class="drawl date"><i class="fas fa-clock"></i> 9-10-21 09:00</a>
-            <a class="drawr people"> 2 <i class="fas fa-user-friends"></i></a>
-            <p>
-            <a class="drawl minAmount"><i class="fas fa-coins"></i> 0.10 eth</a>
-            <a class="drawr totalPot">0.50 eth <i class="fas fa-trophy"></i></a>
-            </p>
-            <button class="stakeButton">Add Stake</button>
-          </div>
-
-        
+          <ActiveDraw></ActiveDraw>
+          <ReadyDraw></ReadyDraw>
+          <ActiveDraw></ActiveDraw>        
         
         </div>
         
