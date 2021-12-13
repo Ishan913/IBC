@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    background-color: #341948;
+    margin: 0;
+}
+
+.navbar{
+    /* margin-top: 0; */
+    background-color: #170B3B;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.addDraw{
+    float: right;
+    margin: 6px 30px 0 0;
+    font-size: larger;
+    /* display: block; */
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #3E2C5B;
+    font-weight: 100;
+}
+
+.dashBoard{
+    margin: 30px 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: white
+    
+}
+
+.box1{
+    background-color: #3E2C5B;
+    padding-left: 30px;
+    width: 250px;
+    border-radius: 14px;
+}
+
+.box1title{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.box1value{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.lottery{
+    background-color: #3E2C5B;
+    margin: 30px 80px;
+    padding: 1px 20px;
+}
+
+h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.drawsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    overflow: auto;
+}
+
+.drawBox{
+    min-width: 300px;
+    background-color: #341948;
+    color: white;
+    margin-right: 20px;
+}
+
+.drawl{
+    padding-left: 10px;
+}
+
+.drawr{
+    padding-right: 10px;
+}
+
+.drawId{
+    background-color: #170B3B;
+    margin-top: 0;
+    padding: 5px 10px;
+}
+
+.people{
+    float: right;
+}
+
+.totalPot{
+    float: right;
+}
+
+.stakeButton{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #3E2C5B;
+    font-weight: 600;
+}
+
+.tableDiv{
+    overflow-y: auto;
+    height: 175px;
+}
+
+th{
+    position: sticky;
+    top:0;
+    z-index: 15;
+    background-color: #3E2C5B;
+}
+
+
+table{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    border-spacing: 0 5px;
+    text-align: center;
+}
+
+.tableEntry{
+    background-color: #341948;    
+}
+
+td{
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+th{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+button{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
